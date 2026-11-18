@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T06:39:12.720Z",
+  "generated_at": "2026-11-18T07:53:43.676Z",
   "speech_model": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
   "animation_model": "TMElyralab/MuseTalk 1.5",
   "animation_enabled": true,
@@ -46,6 +46,335 @@
       "pattern": "⚠️ 從您目前描述的症狀來看，可能有需要立即處理的危險狀況。請立刻告訴現場的醫護人員；如果您不在醫療院所，請馬上聯絡當地的緊急醫療服務。 為了您的安全，這次的預問診先到這裡，不會再繼續追問。 ──────────── 📋 您的儘早就醫編號為：{queue_number} ────────────",
       "spoken": "⚠️ 從您目前描述的症狀來看，可能有需要立即處理的危險狀況。請立刻告訴現場的醫護人員；如果您不在醫療院所，請馬上聯絡當地的緊急醫療服務。 為了您的安全，這次的預問診先到這裡，不會再繼續追問。",
       "file": "09d092341462d973ebbd.mp4"
+    },
+    {
+      "id": "question.shared.name",
+      "language": "mandarin",
+      "text": "好的，您的主訴我記下來了。接下來想請教您幾項基本資料。 請輸入您的姓名。",
+      "spoken": "好的，您的主訴我記下來了。接下來想請教您幾項基本資料。 請輸入您的姓名。",
+      "file": "379d35961d1b2f1111be.mp4"
+    },
+    {
+      "id": "question.shared.name",
+      "language": "mandarin",
+      "text": "請輸入您的姓名。",
+      "spoken": "請輸入您的姓名。",
+      "file": "4e4dbf663fef2c15628e.mp4"
+    },
+    {
+      "id": "question.shared.gender",
+      "language": "mandarin",
+      "text": "請選擇您的生理性別。",
+      "spoken": "請選擇您的生理性別。",
+      "file": "921f1a521317b2f00fe4.mp4"
+    },
+    {
+      "id": "question.shared.birth_date",
+      "language": "mandarin",
+      "text": "請選擇您的出生日期，系統會自動計算年齡。",
+      "spoken": "請選擇您的出生日期，系統會自動計算年齡。",
+      "file": "58bebcfa1befa40f6d93.mp4"
+    },
+    {
+      "id": "question.shared.blood_type",
+      "language": "mandarin",
+      "text": "請選擇您的血型。",
+      "spoken": "請選擇您的血型。",
+      "file": "cd7ed3e0c974e2d3b09a.mp4"
+    },
+    {
+      "id": "question.shared.smoke",
+      "language": "mandarin",
+      "text": "平時是否有抽菸習慣？",
+      "spoken": "平時是否有抽菸習慣？",
+      "file": "ec8379393c9887618558.mp4"
+    },
+    {
+      "id": "question.shared.smoke",
+      "language": "mandarin",
+      "text": "謝謝您，基本資料都完成了。接下來想了解您過去的健康狀況。 平時是否有抽菸習慣？",
+      "spoken": "謝謝您，基本資料都完成了。接下來想了解您過去的健康狀況。 平時是否有抽菸習慣？",
+      "file": "5f79d9e80f4182624fda.mp4"
+    },
+    {
+      "id": "question.shared.chronic",
+      "language": "mandarin",
+      "text": "過去是否有下列慢性疾病史？",
+      "spoken": "過去是否有下列慢性疾病史？",
+      "file": "e5abe906c3d691c48e1d.mp4"
+    },
+    {
+      "id": "question.shared.chronic_detail",
+      "language": "mandarin",
+      "text": "請補充慢性疾病、自體免疫疾病或癌症的病名。",
+      "spoken": "請補充慢性疾病、自體免疫疾病或癌症的病名。",
+      "file": "13a1bfad4d3784d739b5.mp4"
+    },
+    {
+      "id": "question.shared.past_meds",
+      "language": "mandarin",
+      "text": "之前是否曾接受過以下藥物治療？",
+      "spoken": "之前是否曾接受過以下藥物治療？",
+      "file": "10c2aeb02962946ceec3.mp4"
+    },
+    {
+      "id": "question.shared.current_meds",
+      "language": "mandarin",
+      "text": "目前是否有正在服用的藥物？",
+      "spoken": "目前是否有正在服用的藥物？",
+      "file": "eb48679a75430d2a2ee0.mp4"
+    },
+    {
+      "id": "question.shared.allergy",
+      "language": "mandarin",
+      "text": "是否有特殊藥物或食物過敏？",
+      "spoken": "是否有特殊藥物或食物過敏？",
+      "file": "ccc269eda6f7fe40e167.mp4"
+    },
+    {
+      "id": "question.abdomen.onset",
+      "language": "mandarin",
+      "text": "謝謝您，病史的部分都完成了。接下來想請教幾個和腹痛有關的問題。 肚子痛從什麼時候開始？",
+      "spoken": "謝謝您，病史的部分都完成了。接下來想請教幾個和腹痛有關的問題。 肚子痛從什麼時候開始？",
+      "file": "0f8d828ccb971857a134.mp4"
+    },
+    {
+      "id": "question.abdomen.onset",
+      "language": "mandarin",
+      "text": "肚子痛從什麼時候開始？",
+      "spoken": "肚子痛從什麼時候開始？",
+      "file": "61bc0f49f0ed313a0d15.mp4"
+    },
+    {
+      "id": "question.abdomen.start_type",
+      "language": "mandarin",
+      "text": "腹痛是突然發作，還是逐漸出現？",
+      "spoken": "腹痛是突然發作，還是逐漸出現？",
+      "file": "603e39879d68b2fcb3ab.mp4"
+    },
+    {
+      "id": "question.abdomen.severity",
+      "language": "mandarin",
+      "text": "目前腹痛的程度如何？",
+      "spoken": "目前腹痛的程度如何？",
+      "file": "00484f5b71421968826b.mp4"
+    },
+    {
+      "id": "question.abdomen.quality",
+      "language": "mandarin",
+      "text": "肚子痛的性質為何？",
+      "spoken": "肚子痛的性質為何？",
+      "file": "cdfbe85268a80e67d371.mp4"
+    },
+    {
+      "id": "question.abdomen.location",
+      "language": "mandarin",
+      "text": "肚子痛的位置在哪裡？",
+      "spoken": "肚子痛的位置在哪裡？",
+      "file": "557931ac81385b3379f9.mp4"
+    },
+    {
+      "id": "question.abdomen.associated",
+      "language": "mandarin",
+      "text": "是否有下列合併症狀？",
+      "spoken": "是否有下列合併症狀？",
+      "file": "a52ba29f48a5f1c3ece7.mp4"
+    },
+    {
+      "id": "question.abdomen.contact_history",
+      "language": "mandarin",
+      "text": "家中或同行的人是否也有相同症狀？",
+      "spoken": "家中或同行的人是否也有相同症狀？",
+      "file": "5074f9756db729a426ad.mp4"
+    },
+    {
+      "id": "question.abdomen.abdomen_hx",
+      "language": "mandarin",
+      "text": "過去是否有下列腹部相關病史？",
+      "spoken": "過去是否有下列腹部相關病史？",
+      "file": "47a466a0905602ec9b17.mp4"
+    },
+    {
+      "id": "question.abdomen.surgery",
+      "language": "mandarin",
+      "text": "過去是否接受過下列腹部手術？",
+      "spoken": "過去是否接受過下列腹部手術？",
+      "file": "a6ecbec566867e3d9da6.mp4"
+    },
+    {
+      "id": "question.chest.onset",
+      "language": "mandarin",
+      "text": "謝謝您，病史的部分都完成了。接下來想請教幾個和胸痛有關的問題。 胸痛從什麼時候開始？",
+      "spoken": "謝謝您，病史的部分都完成了。接下來想請教幾個和胸痛有關的問題。 胸痛從什麼時候開始？",
+      "file": "d31c3f84a0bdfaa7194f.mp4"
+    },
+    {
+      "id": "question.chest.onset",
+      "language": "mandarin",
+      "text": "胸痛從什麼時候開始？",
+      "spoken": "胸痛從什麼時候開始？",
+      "file": "92ee1ea7f7a8d4e1636f.mp4"
+    },
+    {
+      "id": "question.chest.start_type",
+      "language": "mandarin",
+      "text": "胸痛是突然發作，還是逐漸發作？",
+      "spoken": "胸痛是突然發作，還是逐漸發作？",
+      "file": "0e021ce6dfdaf5c441b5.mp4"
+    },
+    {
+      "id": "question.chest.location",
+      "language": "mandarin",
+      "text": "胸痛的位置在哪裡？",
+      "spoken": "胸痛的位置在哪裡？",
+      "file": "7a97c71db33feafb970c.mp4"
+    },
+    {
+      "id": "question.chest.fixed",
+      "language": "mandarin",
+      "text": "胸痛的位置是否會移動？",
+      "spoken": "胸痛的位置是否會移動？",
+      "file": "b1a926ab2debcd07dbbf.mp4"
+    },
+    {
+      "id": "question.chest.tender",
+      "language": "mandarin",
+      "text": "用手按壓疼痛部位時，是否會有壓痛感？",
+      "spoken": "用手按壓疼痛部位時，是否會有壓痛感？",
+      "file": "9918f6be4adf137292c5.mp4"
+    },
+    {
+      "id": "question.chest.severity",
+      "language": "mandarin",
+      "text": "目前胸痛的嚴重程度如何？",
+      "spoken": "目前胸痛的嚴重程度如何？",
+      "file": "bdb9a06bb6ea44f1c4ef.mp4"
+    },
+    {
+      "id": "question.chest.quality",
+      "language": "mandarin",
+      "text": "您會如何描述這種疼痛？",
+      "spoken": "您會如何描述這種疼痛？",
+      "file": "39a343e5f5ff17f96594.mp4"
+    },
+    {
+      "id": "question.chest.aggravate",
+      "language": "mandarin",
+      "text": "哪些情況會使疼痛加重？",
+      "spoken": "哪些情況會使疼痛加重？",
+      "file": "ad2307a3412af71e5efc.mp4"
+    },
+    {
+      "id": "question.chest.relieve",
+      "language": "mandarin",
+      "text": "哪些情況能緩解疼痛？",
+      "spoken": "哪些情況能緩解疼痛？",
+      "file": "ac31db078c93ade5de5e.mp4"
+    },
+    {
+      "id": "question.chest.associated",
+      "language": "mandarin",
+      "text": "是否同時出現以下症狀？",
+      "spoken": "是否同時出現以下症狀？",
+      "file": "eaf03cbaea10827bb97b.mp4"
+    },
+    {
+      "id": "question.chest.cardio",
+      "language": "mandarin",
+      "text": "過去是否有下列心肺或腦血管疾病？",
+      "spoken": "過去是否有下列心肺或腦血管疾病？",
+      "file": "06222633c3fcb7b4639d.mp4"
+    },
+    {
+      "id": "question.chest.surgery",
+      "language": "mandarin",
+      "text": "過去是否接受過下列手術？",
+      "spoken": "過去是否接受過下列手術？",
+      "file": "0360a9ddb1b2fe3ff01a.mp4"
+    },
+    {
+      "id": "question.headache.onset",
+      "language": "mandarin",
+      "text": "這次頭痛大約從什麼時候開始？",
+      "spoken": "這次頭痛大約從什麼時候開始？",
+      "file": "81464beea4690261d6ec.mp4"
+    },
+    {
+      "id": "question.headache.onset",
+      "language": "mandarin",
+      "text": "謝謝您，病史的部分都完成了。接下來想請教幾個和頭痛有關的問題。 這次頭痛大約從什麼時候開始？",
+      "spoken": "謝謝您，病史的部分都完成了。接下來想請教幾個和頭痛有關的問題。 這次頭痛大約從什麼時候開始？",
+      "file": "d0c0196d2727ba7d1d15.mp4"
+    },
+    {
+      "id": "question.headache.start_type",
+      "language": "mandarin",
+      "text": "頭痛是幾秒內達到最劇烈，還是慢慢加重？",
+      "spoken": "頭痛是幾秒內達到最劇烈，還是慢慢加重？",
+      "file": "279b7144dc00b64fe137.mp4"
+    },
+    {
+      "id": "question.headache.location",
+      "language": "mandarin",
+      "text": "頭痛的位置主要在哪裡？",
+      "spoken": "頭痛的位置主要在哪裡？",
+      "file": "8bdf4d756d7cfec232e2.mp4"
+    },
+    {
+      "id": "question.headache.worst_ever",
+      "language": "mandarin",
+      "text": "這是您至今最嚴重的一次頭痛嗎？",
+      "spoken": "這是您至今最嚴重的一次頭痛嗎？",
+      "file": "4d8dafe4f91e6b979552.mp4"
+    },
+    {
+      "id": "question.headache.quality",
+      "language": "mandarin",
+      "text": "您會怎麼描述頭痛的感覺？",
+      "spoken": "您會怎麼描述頭痛的感覺？",
+      "file": "d6fcaa922c48124b9dbe.mp4"
+    },
+    {
+      "id": "question.headache.aggravate",
+      "language": "mandarin",
+      "text": "什麼情況下頭痛會比較嚴重？",
+      "spoken": "什麼情況下頭痛會比較嚴重？",
+      "file": "f4bb69c2330d215d8c5e.mp4"
+    },
+    {
+      "id": "question.headache.relieve",
+      "language": "mandarin",
+      "text": "什麼情況下頭痛會比較緩解？",
+      "spoken": "什麼情況下頭痛會比較緩解？",
+      "file": "74f8479586f9c3c35e29.mp4"
+    },
+    {
+      "id": "question.headache.associated",
+      "language": "mandarin",
+      "text": "除了頭痛，還有哪些症狀？",
+      "spoken": "除了頭痛，還有哪些症狀？",
+      "file": "3ec850ad960d63cfd30e.mp4"
+    },
+    {
+      "id": "question.headache.risk_flags",
+      "language": "mandarin",
+      "text": "請問是否有以下情形？",
+      "spoken": "請問是否有以下情形？",
+      "file": "c49de60881454fac90eb.mp4"
+    },
+    {
+      "id": "question.headache.neuro",
+      "language": "mandarin",
+      "text": "過去是否有以下神經血管相關疾病？",
+      "spoken": "過去是否有以下神經血管相關疾病？",
+      "file": "b5cc134e7a3349f5bf6f.mp4"
+    },
+    {
+      "id": "question.headache.surgery",
+      "language": "mandarin",
+      "text": "過去是否曾接受過下列手術？",
+      "spoken": "過去是否曾接受過下列手術？",
+      "file": "face29b40db5506e1080.mp4"
     },
     {
       "id": "frontend.ask_repeat",
