@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T07:53:43.676Z",
+  "generated_at": "2026-11-18T09:22:54.989Z",
   "speech_model": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
   "animation_model": "TMElyralab/MuseTalk 1.5",
   "animation_enabled": true,
@@ -134,16 +134,16 @@
     {
       "id": "question.abdomen.onset",
       "language": "mandarin",
-      "text": "謝謝您，病史的部分都完成了。接下來想請教幾個和腹痛有關的問題。 肚子痛從什麼時候開始？",
-      "spoken": "謝謝您，病史的部分都完成了。接下來想請教幾個和腹痛有關的問題。 肚子痛從什麼時候開始？",
-      "file": "0f8d828ccb971857a134.mp4"
+      "text": "肚子痛從什麼時候開始？",
+      "spoken": "肚子痛從什麼時候開始？",
+      "file": "61bc0f49f0ed313a0d15.mp4"
     },
     {
       "id": "question.abdomen.onset",
       "language": "mandarin",
-      "text": "肚子痛從什麼時候開始？",
-      "spoken": "肚子痛從什麼時候開始？",
-      "file": "61bc0f49f0ed313a0d15.mp4"
+      "text": "謝謝您，病史的部分都完成了。接下來想請教幾個和腹痛有關的問題。 肚子痛從什麼時候開始？",
+      "spoken": "謝謝您，病史的部分都完成了。接下來想請教幾個和腹痛有關的問題。 肚子痛從什麼時候開始？",
+      "file": "0f8d828ccb971857a134.mp4"
     },
     {
       "id": "question.abdomen.start_type",
@@ -204,16 +204,16 @@
     {
       "id": "question.chest.onset",
       "language": "mandarin",
-      "text": "謝謝您，病史的部分都完成了。接下來想請教幾個和胸痛有關的問題。 胸痛從什麼時候開始？",
-      "spoken": "謝謝您，病史的部分都完成了。接下來想請教幾個和胸痛有關的問題。 胸痛從什麼時候開始？",
-      "file": "d31c3f84a0bdfaa7194f.mp4"
+      "text": "胸痛從什麼時候開始？",
+      "spoken": "胸痛從什麼時候開始？",
+      "file": "92ee1ea7f7a8d4e1636f.mp4"
     },
     {
       "id": "question.chest.onset",
       "language": "mandarin",
-      "text": "胸痛從什麼時候開始？",
-      "spoken": "胸痛從什麼時候開始？",
-      "file": "92ee1ea7f7a8d4e1636f.mp4"
+      "text": "謝謝您，病史的部分都完成了。接下來想請教幾個和胸痛有關的問題。 胸痛從什麼時候開始？",
+      "spoken": "謝謝您，病史的部分都完成了。接下來想請教幾個和胸痛有關的問題。 胸痛從什麼時候開始？",
+      "file": "d31c3f84a0bdfaa7194f.mp4"
     },
     {
       "id": "question.chest.start_type",
@@ -375,6 +375,90 @@
       "text": "過去是否曾接受過下列手術？",
       "spoken": "過去是否曾接受過下列手術？",
       "file": "face29b40db5506e1080.mp4"
+    },
+    {
+      "id": "question.prefilled.smoke",
+      "language": "mandarin",
+      "text": "好的，您的主訴我記下來了，基本資料也已經從病歷帶入。接下來想補問幾項病歷上還沒有的病史。 平時是否有抽菸習慣？",
+      "spoken": "好的，您的主訴我記下來了，基本資料也已經從病歷帶入。接下來想補問幾項病歷上還沒有的病史。 平時是否有抽菸習慣？",
+      "file": "145e3b53d55021bb57b0.mp4"
+    },
+    {
+      "id": "question.prefilled.chronic",
+      "language": "mandarin",
+      "text": "好的，您的主訴我記下來了，基本資料也已經從病歷帶入。接下來想補問幾項病歷上還沒有的病史。 過去是否有下列慢性疾病史？",
+      "spoken": "好的，您的主訴我記下來了，基本資料也已經從病歷帶入。接下來想補問幾項病歷上還沒有的病史。 過去是否有下列慢性疾病史？",
+      "file": "c70ff4c129933eac7bec.mp4"
+    },
+    {
+      "id": "question.prefilled.chronic_detail",
+      "language": "mandarin",
+      "text": "好的，您的主訴我記下來了，基本資料也已經從病歷帶入。接下來想補問幾項病歷上還沒有的病史。 請補充慢性疾病、自體免疫疾病或癌症的病名。",
+      "spoken": "好的，您的主訴我記下來了，基本資料也已經從病歷帶入。接下來想補問幾項病歷上還沒有的病史。 請補充慢性疾病、自體免疫疾病或癌症的病名。",
+      "file": "8c28d09a1f1adea5f052.mp4"
+    },
+    {
+      "id": "question.prefilled.past_meds",
+      "language": "mandarin",
+      "text": "好的，您的主訴我記下來了，基本資料也已經從病歷帶入。接下來想補問幾項病歷上還沒有的病史。 之前是否曾接受過以下藥物治療？",
+      "spoken": "好的，您的主訴我記下來了，基本資料也已經從病歷帶入。接下來想補問幾項病歷上還沒有的病史。 之前是否曾接受過以下藥物治療？",
+      "file": "0e4b5cb0375a56fb6499.mp4"
+    },
+    {
+      "id": "question.prefilled.current_meds",
+      "language": "mandarin",
+      "text": "好的，您的主訴我記下來了，基本資料也已經從病歷帶入。接下來想補問幾項病歷上還沒有的病史。 目前是否有正在服用的藥物？",
+      "spoken": "好的，您的主訴我記下來了，基本資料也已經從病歷帶入。接下來想補問幾項病歷上還沒有的病史。 目前是否有正在服用的藥物？",
+      "file": "94d722a7efd25e47c29e.mp4"
+    },
+    {
+      "id": "question.prefilled.allergy",
+      "language": "mandarin",
+      "text": "好的，您的主訴我記下來了，基本資料也已經從病歷帶入。接下來想補問幾項病歷上還沒有的病史。 是否有特殊藥物或食物過敏？",
+      "spoken": "好的，您的主訴我記下來了，基本資料也已經從病歷帶入。接下來想補問幾項病歷上還沒有的病史。 是否有特殊藥物或食物過敏？",
+      "file": "b916b42fabbafb30edf4.mp4"
+    },
+    {
+      "id": "question.prefilled.abdomen",
+      "language": "mandarin",
+      "text": "您的基本資料已經從病歷帶入，不需要再填一次。接下來想請教幾個和腹痛有關的問題。 肚子痛從什麼時候開始？",
+      "spoken": "您的基本資料已經從病歷帶入，不需要再填一次。接下來想請教幾個和腹痛有關的問題。 肚子痛從什麼時候開始？",
+      "file": "46ea955168a7953a733a.mp4"
+    },
+    {
+      "id": "question.prefilled.abdomen",
+      "language": "mandarin",
+      "text": "您的基本資料和病史已經從病歷帶入，不需要再填一次。接下來想請教幾個和腹痛有關的問題。 肚子痛從什麼時候開始？",
+      "spoken": "您的基本資料和病史已經從病歷帶入，不需要再填一次。接下來想請教幾個和腹痛有關的問題。 肚子痛從什麼時候開始？",
+      "file": "5d6f3af84aed3de8fe9c.mp4"
+    },
+    {
+      "id": "question.prefilled.chest",
+      "language": "mandarin",
+      "text": "您的基本資料已經從病歷帶入，不需要再填一次。接下來想請教幾個和胸痛有關的問題。 胸痛從什麼時候開始？",
+      "spoken": "您的基本資料已經從病歷帶入，不需要再填一次。接下來想請教幾個和胸痛有關的問題。 胸痛從什麼時候開始？",
+      "file": "388d8b32ccb9ae3f7160.mp4"
+    },
+    {
+      "id": "question.prefilled.chest",
+      "language": "mandarin",
+      "text": "您的基本資料和病史已經從病歷帶入，不需要再填一次。接下來想請教幾個和胸痛有關的問題。 胸痛從什麼時候開始？",
+      "spoken": "您的基本資料和病史已經從病歷帶入，不需要再填一次。接下來想請教幾個和胸痛有關的問題。 胸痛從什麼時候開始？",
+      "file": "4048dbb9bd346eb15428.mp4"
+    },
+    {
+      "id": "question.prefilled.headache",
+      "language": "mandarin",
+      "text": "您的基本資料已經從病歷帶入，不需要再填一次。接下來想請教幾個和頭痛有關的問題。 這次頭痛大約從什麼時候開始？",
+      "spoken": "您的基本資料已經從病歷帶入，不需要再填一次。接下來想請教幾個和頭痛有關的問題。 這次頭痛大約從什麼時候開始？",
+      "file": "02fe043a96e8685e7bf9.mp4"
+    },
+    {
+      "id": "question.prefilled.headache",
+      "language": "mandarin",
+      "text": "您的基本資料和病史已經從病歷帶入，不需要再填一次。接下來想請教幾個和頭痛有關的問題。 這次頭痛大約從什麼時候開始？",
+      "spoken": "您的基本資料和病史已經從病歷帶入，不需要再填一次。接下來想請教幾個和頭痛有關的問題。 這次頭痛大約從什麼時候開始？",
+      "file": "794d46574680ae462dfd.mp4"
     },
     {
       "id": "frontend.ask_repeat",

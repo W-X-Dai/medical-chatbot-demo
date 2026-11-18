@@ -12,12 +12,17 @@ interfaces directly; the source code and the paper describe the full system.
 
 A progress bar at the top guides you through three steps:
 
-1. **Check-in**: the registration slip carries a QR code (it encodes this site's
-   address). Press 「掃描 QR code」 to start, as a patient would by scanning it.
-2. **AI pre-consultation**: answer by clicking. Questions with options keep
-   them; questions that normally take typed input (chief complaint, name, date
-   of birth) offer example answers, including one chief complaint that triggers
-   the red-flag rules and stops the interview. The questionnaires, question
+1. **Check-in**: the registration slip of a synthetic patient carries a QR code
+   with a one-time code (scanning it with a phone opens this site and redeems
+   it). Next to it is the patient's TW Core FHIR record (Patient, Encounter,
+   Condition, MedicationRequest, Observation) and the questionnaire fields it
+   fills in. Press 「掃描 QR code」 to start, as a patient would by scanning it.
+2. **AI pre-consultation**: the interview starts with the prefill the system
+   derived from that record in the paper's E2 run (including its model-based
+   mapping of chronic conditions), so basic data and known history are not asked
+   again. Answer by clicking: questions with options keep them; the chief
+   complaint offers two examples, one of which triggers the red-flag rules and
+   stops the interview. The questionnaires, question
    order, answer validation, body pain map and red-flag rules are the ones used
    in the paper, and the AI doctor plays pre-rendered clips (CosyVoice3 speech,
    MuseTalk lip-sync) for every question.
