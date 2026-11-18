@@ -1,0 +1,29 @@
+# Medical chatbot demo (static build)
+
+Production build of the ELVINA pre-consultation web frontend (Vue 3 + Vite),
+frontend version 0.19.2, built for the base path `/ai-consult/`.
+
+This is a static bundle only. Consultations need the FastAPI backend reachable
+from the same origin at `/api` (the build uses `VITE_BACKEND_BASE_URL=/api`);
+without it the pages load but cannot start an interview.
+
+## Contents
+
+- `index.html`, `launch.html`, `assets/` — the built application
+- `avatar-clips/` — pre-rendered AI doctor clips (CosyVoice3 speech, MuseTalk
+  lip-sync) played directly by the patient page, plus `manifest.json`
+- `dr training pc.png` — the AI-generated doctor image used by the avatar
+
+## Serving
+
+Serve this folder at `/ai-consult/` and proxy `/api/` to the backend, for
+example with nginx:
+
+```nginx
+location /ai-consult/ { alias /srv/medical-chatbot-demo/; try_files $uri $uri/ /ai-consult/index.html; }
+location /api/ { proxy_pass http://127.0.0.1:18000/; }
+```
+
+All patients in the demo are synthetic. The avatar and its voice are synthetic
+and do not represent a real clinician; the system is not a medical device and
+its output is not a diagnosis.

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-18T06:39:12.720Z",
+  "speech_model": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+  "animation_model": "TMElyralab/MuseTalk 1.5",
+  "animation_enabled": true,
+  "clips": [
+    {
+      "id": "interview.legacy_welcome",
+      "language": "mandarin",
+      "text": "您好，我是您的數位醫療助理，看診前先由我來了解您的狀況。請先告訴我今天哪裡不舒服，接著我會依序請教您的基本資料、病史和症狀，您慢慢回答就可以了。 請自由描述今天最不舒服的症狀、部位，以及發生的情況。",
+      "spoken": "您好，我是您的數位醫療助理，看診前先由我來了解您的狀況。請先告訴我今天哪裡不舒服，接著我會依序請教您的基本資料、病史和症狀，您慢慢回答就可以了。 請自由描述今天最不舒服的症狀、部位，以及發生的情況。",
+      "file": "d5e14844b5382d5557bc.mp4"
+    },
+    {
+      "id": "handoff.safety_unavailable",
+      "language": "mandarin",
+      "pattern": "不好意思，系統目前無法完成症狀的安全確認，為了您的安全，預問診先到這裡。請直接告訴現場的護理師或醫師，由他們為您安排後續處置。 您的問診編號為：{queue_number}",
+      "spoken": "不好意思，系統目前無法完成症狀的安全確認，為了您的安全，預問診先到這裡。請直接告訴現場的護理師或醫師，由他們為您安排後續處置。",
+      "file": "390e097a8c7216ffa413.mp4"
+    },
+    {
+      "id": "handoff.unsupported_route",
+      "language": "mandarin",
+      "pattern": "了解。您描述的症狀目前沒有對應的問卷，建議直接請現場的護理師或醫師為您進一步安排。 您的問診編號為：{queue_number}",
+      "spoken": "了解。您描述的症狀目前沒有對應的問卷，建議直接請現場的護理師或醫師為您進一步安排。",
+      "file": "5cd838889bad7fe5084d.mp4"
+    },
+    {
+      "id": "handoff.notice_default",
+      "language": "mandarin",
+      "pattern": "為了您的安全，預問診先到這裡，請直接找現場的護理師或醫師進一步確認。 您的問診編號為：{queue_number}",
+      "spoken": "為了您的安全，預問診先到這裡，請直接找現場的護理師或醫師進一步確認。",
+      "file": "f0af1c726d0d4bfd7909.mp4"
+    },
+    {
+      "id": "completion.routine",
+      "language": "mandarin",
+      "pattern": "謝謝您耐心回答，問診到這裡就完成了。 ──────────── 📋 您的問診編號為：{queue_number} ──────────── 請稍坐等候叫號，輪到您的號碼時，醫師就會為您看診。等候時如果覺得非常不舒服，請馬上告訴現場的護理師。",
+      "spoken": "謝謝您耐心回答，問診到這裡就完成了。 請稍坐等候叫號，輪到您的號碼時，醫師就會為您看診。等候時如果覺得非常不舒服，請馬上告訴現場的護理師。",
+      "file": "3f17d9fd1eff50237c8d.mp4"
+    },
+    {
+      "id": "completion.urgent",
+      "language": "mandarin",
+      "pattern": "⚠️ 從您目前描述的症狀來看，可能有需要立即處理的危險狀況。請立刻告訴現場的醫護人員；如果您不在醫療院所，請馬上聯絡當地的緊急醫療服務。 為了您的安全，這次的預問診先到這裡，不會再繼續追問。 ──────────── 📋 您的儘早就醫編號為：{queue_number} ────────────",
+      "spoken": "⚠️ 從您目前描述的症狀來看，可能有需要立即處理的危險狀況。請立刻告訴現場的醫護人員；如果您不在醫療院所，請馬上聯絡當地的緊急醫療服務。 為了您的安全，這次的預問診先到這裡，不會再繼續追問。",
+      "file": "09d092341462d973ebbd.mp4"
+    },
+    {
+      "id": "frontend.ask_repeat",
+      "language": "mandarin",
+      "text": "對不起，我沒有聽清楚，請再講一次。",
+      "spoken": "對不起，我沒有聽清楚，請再講一次。",
+      "file": "ad08142f7ee2734b929c.mp4"
+    }
+  ]
+}
