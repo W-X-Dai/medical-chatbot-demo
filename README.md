@@ -13,6 +13,9 @@ without it the pages load but cannot start an interview.
 - `avatar-clips/` — pre-rendered AI doctor clips (CosyVoice3 speech, MuseTalk
   lip-sync) played directly by the patient page, plus `manifest.json`
 - `dr training pc.png` — the AI-generated doctor image used by the avatar
+- `script_review.html` — standalone offline form for clinicians to review the 30
+  synthetic validation scenarios; answers stay in the reviewer's browser until
+  exported as JSON (no network requests)
 
 ## Serving
 
