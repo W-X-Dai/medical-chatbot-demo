@@ -1,11 +1,14 @@
 # Medical chatbot demo (static build)
 
 Production build of the ELVINA pre-consultation web frontend (Vue 3 + Vite),
-frontend version 0.19.2, built for the base path `/ai-consult/`.
+frontend version 0.19.2, built for the base path `/medical-chatbot-demo/` so it
+loads on GitHub Pages at https://w-x-dai.github.io/medical-chatbot-demo/.
 
 This is a static bundle only. Consultations need the FastAPI backend reachable
 from the same origin at `/api` (the build uses `VITE_BACKEND_BASE_URL=/api`);
-without it the pages load but cannot start an interview.
+without it the pages load but cannot start an interview. GitHub Pages has no
+backend, so there the pages render but consultations, the doctor workspace and
+the Rules Center report that the backend is unreachable.
 
 ## Contents
 
@@ -19,11 +22,11 @@ without it the pages load but cannot start an interview.
 
 ## Serving
 
-Serve this folder at `/ai-consult/` and proxy `/api/` to the backend, for
-example with nginx:
+To run consultations, serve this folder at `/medical-chatbot-demo/` and proxy
+`/api/` to the backend on the same origin, for example with nginx:
 
 ```nginx
-location /ai-consult/ { alias /srv/medical-chatbot-demo/; try_files $uri $uri/ /ai-consult/index.html; }
+location /medical-chatbot-demo/ { alias /srv/medical-chatbot-demo/; try_files $uri $uri/ /medical-chatbot-demo/index.html; }
 location /api/ { proxy_pass http://127.0.0.1:18000/; }
 ```
 
