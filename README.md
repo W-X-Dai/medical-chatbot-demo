@@ -10,13 +10,22 @@ interfaces directly; the source code and the paper describe the full system.
 
 ## What you can try
 
-- **Patient interview** (`#/`): press 「開始問診」 and describe a chief complaint.
-  The questionnaires, question order, answer validation, body pain map and the
-  chief-complaint red-flag rules are the ones used in the paper. The questionnaire
-  is chosen by keyword, so try 「今天早上開始胸口悶痛」, 「頭痛好幾天了」 or
-  「胃痛好幾天了」, or a red-flag complaint such as
-  「胸口像被大石頭壓住，一直冒冷汗，喘不過氣」. The AI doctor plays pre-rendered
-  clips (CosyVoice3 speech, MuseTalk lip-sync) for every question.
+A progress bar at the top guides you through three steps:
+
+1. **Check-in**: the registration slip carries a QR code (it encodes this site's
+   address). Press 「掃描 QR code」 to start, as a patient would by scanning it.
+2. **AI pre-consultation**: answer by clicking. Questions with options keep
+   them; questions that normally take typed input (chief complaint, name, date
+   of birth) offer example answers, including one chief complaint that triggers
+   the red-flag rules and stops the interview. The questionnaires, question
+   order, answer validation, body pain map and red-flag rules are the ones used
+   in the paper, and the AI doctor plays pre-rendered clips (CosyVoice3 speech,
+   MuseTalk lip-sync) for every question.
+3. **Clinician view**: when the interview is submitted, the doctor workspace
+   opens the consultation you just completed.
+
+Also available from the clinician view:
+
 - **Doctor workspace** (`#/doctor`): 30 example consultations that are actual
   outputs of the paper's end-to-end experiment (E2), including the AI-drafted
   record, differential and test suggestions and MedGemma background knowledge.
