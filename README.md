@@ -56,7 +56,7 @@ The interface is the real one; only the data source differs.
 ## Contents
 
 - `index.html`, `launch.html`, `assets/` — the built application (`npm run build:demo`)
-- `avatar-clips/` — 54 pre-rendered AI doctor clips plus `manifest.json`
+- `avatar-clips/` — 66 pre-rendered AI doctor clips plus `manifest.json`
 - `dr training pc.png` — the AI-generated doctor image used by the avatar
 - `script_review.html` — standalone offline form for clinicians to review the 30
   synthetic validation scenarios; answers stay in the reviewer's browser until
