@@ -26,8 +26,12 @@ A progress bar at the top guides you through three steps:
    order, answer validation, body pain map and red-flag rules are the ones used
    in the paper, and the AI doctor plays pre-rendered clips (CosyVoice3 speech,
    MuseTalk lip-sync) for every question.
-3. **Clinician view**: when the interview is submitted, the doctor workspace
-   opens the consultation you just completed.
+3. **Clinician view**: once the interview is finished, the button under the
+   consultation number opens it in the doctor workspace.
+
+Each step in the progress bar can also be clicked to move between them; the
+finished interview stays on the patient page while you look at the doctor
+workspace. Going back to step 1 after scanning starts over.
 
 Also available from the clinician view:
 
